@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.panel-button {
+    color: rgba(245, 245, 245, 0.781);
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.panel-button:hover {
+    color: whitesmoke;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.panel-home {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.397);
+    background-color: rgba(95, 49, 180, 0.897);
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.main-home {
+    height: 81vh;
+    width: 100%;
+}
+
+/* Cards */
+
+.simple-card {
+    border-radius: 5px 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-service {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color:#F2F1F0;
+}
+
+.card-service:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-service {
+    padding: 2px 16px;
+}
+
+.nav-clap {
+    background-color: rgb(12, 11, 11);
+}
+
+footer {
+    left: 0;
+    height: 100px;
+    width: 100%;
+    padding-top: 35px;
+    background-color: rgb(29, 24, 24);
+    color: white;
+    text-align: center;
+}
+
+/* Colors */
+
+.white-tr {
+    background-color: rgba(255, 255, 255, 0.945);
+}
